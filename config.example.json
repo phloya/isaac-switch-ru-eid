@@ -1,0 +1,7 @@
+{
+  "eid": "C:/Program Files (x86)/Steam/steamapps/common/The Binding of Isaac Rebirth/mods/external item descriptions_836319872",
+  "switchMod": "input/eid-switch-repentance-en_us",
+  "metadata": "input/items_metadata.xml",
+  "lang": "ru",
+  "out": "dist"
+}

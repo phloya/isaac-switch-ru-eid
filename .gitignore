@@ -1,0 +1,7 @@
+# local inputs and build output (game assets are never committed)
+config.json
+input/
+dist/
+/*.png
+*.dat
+node_modules/

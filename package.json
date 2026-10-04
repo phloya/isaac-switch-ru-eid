@@ -1,0 +1,29 @@
+{
+  "name": "isaac-switch-ru-eid",
+  "version": "1.0.0",
+  "description": "Russian External Item Descriptions baked into item textures for The Binding of Isaac: Repentance on a modded Nintendo Switch, plus a PC Repentance+ to Switch save converter.",
+  "private": true,
+  "license": "MIT",
+  "author": "Daler Khamidov (https://github.com/phloya)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node bin/build.js",
+    "preview": "node bin/preview.js",
+    "calibrate": "node bin/calibrate.js",
+    "save": "node bin/convert-save.js"
+  },
+  "keywords": [
+    "binding-of-isaac",
+    "repentance",
+    "nintendo-switch",
+    "atmosphere",
+    "layeredfs",
+    "external-item-descriptions",
+    "localization",
+    "pcx",
+    "bmfont",
+    "save-converter"
+  ]
+}
