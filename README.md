@@ -39,7 +39,7 @@ It also ships a **save converter**: Repentance+ (PC) → Repentance (Switch), wi
 
 ## Features
 
-| | |
+| Feature | What it does |
 |---|---|
 | 🎨 **Texture builder** | One command turns EID + the English Switch mod into a ready `atmosphere/` folder |
 | 🌍 **Any EID language with Latin/Cyrillic glyphs** | `--lang ru` by default; English fallback per item |
