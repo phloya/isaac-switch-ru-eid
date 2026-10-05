@@ -48,15 +48,6 @@ It also ships a **save converter**: Repentance+ (PC) → Repentance (Switch), wi
 | 💾 **Save converter** | Inspects saves, verifies checksums, converts Repentance+ → Repentance |
 | 📦 **Zero dependencies** | Own PNG/PCX codecs, BMFont renderer, Lua table parser and anm2 patcher on plain Node.js |
 
-## How it evolved
-
-| v1: text to the right | v2: separate text layer | v3: one layer, centred |
-|:---:|:---:|:---:|
-| <img src="assets/v1-shop.jpg" width="270"> | <img src="assets/v2-bug.jpg" width="270"> | <img src="assets/v3-final.jpg" width="270"> |
-| Long descriptions overlap the neighbours and the price tags | Every item read *"The Sad Onion"*: the game swaps sprite sheets **per layer** | Text lives in the item's own layer, centred and scaled to 75 % |
-
-The full story, with the reasoning behind each decision, is in **[docs/how-it-works.md](docs/how-it-works.md)**.
-
 ## Quick start
 
 **You need:** a Switch with Atmosphère; *The Binding of Isaac: Afterbirth+* `010021C000B6A000` with update 1.7.9b and the Repentance DLC `010021C000B6B001` (US); [Node.js](https://nodejs.org) 18 or newer.
